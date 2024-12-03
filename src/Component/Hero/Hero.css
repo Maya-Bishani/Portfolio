@@ -1,0 +1,56 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.MB_Paragraph1{
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 1.625rem;
+    margin-top: 73px;
+    color: #2D2D2D;
+}
+.MB_Paragraph2{
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 70px;
+    margin: 40px 0;
+    color: #2D2D2D;
+}
+.MB_Paragraph3{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #2D2D2D;
+}
+.MB-Hero-img{
+    width: 365px;
+    Height:424px;
+}
+ /*Responsive*/
+ @media (max-width:768px) {
+    .Hero{
+        flex-wrap: wrap;
+    }
+    .MB-Hero-img{
+        margin-top: 30px;
+    }
+ }
+ @media (max-width:500px) {
+    .Hero{
+        align-items: center;
+        justify-content: center;
+    }
+    .MB_Paragraph1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .MB_Paragraph2{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .MB_Paragraph3{
+        text-align: center;
+    }
+ }

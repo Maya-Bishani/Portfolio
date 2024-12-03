@@ -1,0 +1,58 @@
+.Clients-Heading{
+    text-align: center;
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin: 2% auto 4% auto;
+}
+.Clients-Cards{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+    margin-bottom: 50px;
+   
+}
+.Clients-Cards .card {
+    border: 1.5px solid #FFD285;
+    background-color: #FFFCF5;
+    height: 344px;
+    width: 315px;
+    margin: 0 auto;
+}
+.Clients-title{
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size:1.25rem ;
+    color: #2D2D2D;
+}
+.Clients-text{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-top: 10px;
+   
+}
+.Clients-Img{
+    width: 50px;
+    height: 50px;
+   
+}
+.Clients-Img2{
+    width: 120px;
+    height: 20px;
+   
+}
+.section2card{
+    display: flex;
+    gap: 5px;
+    margin-top: 80px;
+   
+}
+@media (max-width:1032px) {
+    .Clients-Cards .card{
+        margin-top: 20px;
+    }
+    .Clients-Cards{
+        gap: 10px;
+    }
+}

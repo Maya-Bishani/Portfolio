@@ -1,0 +1,37 @@
+.Work-Heading{
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 2.25rem;
+    color:#2D2D2D;
+    text-align: center;
+    margin-bottom: 4.3%;
+}
+.Card-work{
+    margin-bottom: 4%;
+    border: none;
+    width: 315px;
+
+}
+.Work-Cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Work-img-card{
+    width: 315px;
+    height: 315px;
+}
+.Work-title{
+    font-weight: 600;
+    font-size: 1.625rem;
+    font-family: 'Epilogue';
+    color: #2D2D2D;
+    text-align: start;
+}
+.Work-text{
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-family: 'Epilogue';
+    color: #2D2D2D;
+}

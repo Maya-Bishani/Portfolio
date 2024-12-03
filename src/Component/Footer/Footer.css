@@ -1,0 +1,90 @@
+.Footer-Child1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.Info-Heading{
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #2D2D2D;
+    width: max-content;
+    margin-bottom: 5%;
+    
+}
+.Footer-Info{
+   margin-top:3% ;
+}
+.Info-Paragraph{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #2D2D2D;
+    width: 360px;
+}
+.form-control {
+    background-color: #F3F3F3;
+    width: 530px;
+    height: 69px;
+    border: none;
+    margin-bottom: 20px;
+}
+.placeholder {
+    color: #2D2D2D !important;
+    font-weight: 400 !important;
+    font-size: 1.125rem;
+    font-family: 'Epilogue';
+}
+textarea.form-control {
+    height: 232px;
+}
+
+.form-btn{
+    background-color: #2D2D2D;
+    border:none;
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Epilogue';
+    padding: 20px;
+}
+.form-btn:hover {
+    background-color: #F3F3F3;
+    color: black;  
+}
+.Social-Media-Icon{
+    margin-top: 14%;
+}
+.Social-Media-Icon img{
+    margin-right: 10px;
+    width: 30px;
+}
+.Footer-Child2{
+    padding: 30px;
+    background-color: #2D2D2D;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Epilogue';
+    width: 100%;
+   text-align: center;
+    position: absolute;
+    left: 0;
+   
+}
+
+@media (max-width:600px) {
+    .form-control{
+        width: 315px;
+    }
+    
+}
+@media (max-width:430px) {
+    .Info-Heading ,.Info-Paragraph{
+        width: 250px;
+    }
+
+    
+}

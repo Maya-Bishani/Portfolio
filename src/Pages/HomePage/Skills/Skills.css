@@ -1,0 +1,64 @@
+.Skills-Heading{
+    text-align: center;
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #2D2D2D;
+
+}
+.Skills-Cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 62px 0 72px 0;
+    flex-wrap: wrap;
+}
+.Img-Card{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+.Card-Skill {
+    border: none;
+    width: 315px;
+}
+.Skills-title  {
+   text-align: center;
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #2D2D2D;
+    margin-bottom: 19px;
+}
+.Skills-text {
+    width: 325px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-family: 'Epilogue';
+    color: #2D2D2D;
+    text-align: center;
+    
+  
+}
+@media (max-width:500px){
+    .Skills-Cards{
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+@media(max-width:400px){
+    .card-text {
+        width: 100%;
+    }
+    .card{
+        margin: 30px 0;
+    }
+    .Skills-Heading{
+        margin-top: 35px;
+    }
+
+}
+
+
